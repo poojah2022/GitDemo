@@ -20,11 +20,6 @@
     <scope>test</scope>
 </dependency>
 
-  	<dependency>
-  		<groupId>poojah</groupId>
-  		<artifactId>selenium-java</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
   
   <build>
