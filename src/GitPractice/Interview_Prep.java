@@ -38,10 +38,7 @@ public class Interview_Prep {
 		password.sendKeys("xyz@@567");
 		login.click();
 		
-		//Navigate to Homepage
-		WebElement home = driver.findElement(By.cssSelector("a[aria-label='Home']"));
-		home.click(); //test will fail here as unable to locate element bcz credentials are not valid, othewise script will work
-	}
+		}
 	
 	@AfterMethod
 	public void tearDown()

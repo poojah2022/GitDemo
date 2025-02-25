@@ -31,11 +31,6 @@ public class SwithToNthWindow {
 			a.keyDown(Keys.CONTROL).click(link).keyUp(Keys.CONTROL).build().perform();
 		}
 		
-		/*for(int i=1; i<links.size();i++)	
-		{
-			a.keyDown(Keys.CONTROL).click(links.get(i)).keyUp(Keys.CONTROL).build().perform();
-		}*/  //in the url "Discount Coupons" link is opening again the same window-so to skip that link, loop starts from 1
-		//- otherwise we could use enhanced for loop - shown above
 		
 		Set<String> windows = driver.getWindowHandles();
 		ArrayList<String> windowsList = new ArrayList<>(windows);

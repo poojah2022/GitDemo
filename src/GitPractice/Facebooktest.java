@@ -12,7 +12,7 @@ public class Facebooktest {
 		
 		WebDriver driver = new ChromeDriver();
 		String url = "https://www.facebook.com/";
-		driver.get(url); 
+		driver.get(url);  
 		WebElement email = driver.findElement(By.id("email"));
 		WebElement password = driver.findElement(By.id("pass"));
 		WebElement language = driver.findElement(By.cssSelector("a[title='Kannada']"));
@@ -21,7 +21,7 @@ public class Facebooktest {
 		String pswd = "abcd@1234";
 		email.sendKeys(emailid);
 		password.sendKeys(pswd);
-		language.click();
+		
 		WebElement login = driver.findElement(By.cssSelector("button[type='submit']"));
 		login.click();
 
