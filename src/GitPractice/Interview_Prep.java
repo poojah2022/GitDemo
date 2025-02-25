@@ -43,6 +43,7 @@ public class Interview_Prep {
 	@AfterMethod
 	public void tearDown()
 	{
+		if(driver!=null)
 		driver.quit();
 	}
 }
