@@ -17,8 +17,8 @@ public class Facebooktest {
 		WebElement password = driver.findElement(By.id("pass"));
 		WebElement language = driver.findElement(By.cssSelector("a[title='Kannada']"));
 		
-		String emailid = "abc@gmail.com";
-		String pswd = "abc@123";
+		String emailid = "abcd@gmail.com";
+		String pswd = "abcd@1234";
 		email.sendKeys(emailid);
 		password.sendKeys(pswd);
 		language.click();
